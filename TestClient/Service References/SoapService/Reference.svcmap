@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="13b6d950-4b1e-4050-a0ea-47a01e59af35" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:51111/SOAPRESTDemo.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="SOAPRESTDemo.xsd" MetadataType="Schema" ID="f9bc8a3e-58db-4e47-9ae4-017d363d5982" SourceId="1" SourceUrl="http://localhost:51111/SOAPRESTDemo.svc?xsd=xsd1" />
+    <MetadataFile FileName="SOAPRESTDemo.wsdl" MetadataType="Wsdl" ID="70e5fcbb-3045-46af-96c8-f1c5e32978d8" SourceId="1" SourceUrl="http://localhost:51111/SOAPRESTDemo.svc?wsdl" />
+    <MetadataFile FileName="SOAPRESTDemo1.xsd" MetadataType="Schema" ID="5061a358-3bfa-4dd4-b079-6cfb2ee3510f" SourceId="1" SourceUrl="http://localhost:51111/SOAPRESTDemo.svc?xsd=xsd0" />
+    <MetadataFile FileName="SOAPRESTDemo.disco" MetadataType="Disco" ID="5a75ca49-b045-4d24-813f-44ca2e70c7d3" SourceId="1" SourceUrl="http://localhost:51111/SOAPRESTDemo.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

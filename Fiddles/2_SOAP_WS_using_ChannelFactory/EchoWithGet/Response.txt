@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Server: ASP.NET Development Server/10.0.0.0
+Date: Thu, 23 Jun 2011 13:00:04 GMT
+X-AspNet-Version: 4.0.30319
+Content-Length: 241
+Cache-Control: private
+Content-Type: text/xml; charset=utf-8
+Connection: Close
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><EchoWithGetResponse xmlns="http://tempuri.org/"><EchoWithGetResult>ECHO with GET : You said Hello World!</EchoWithGetResult></EchoWithGetResponse></s:Body></s:Envelope>

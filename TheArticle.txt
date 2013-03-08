@@ -1,0 +1,61 @@
+Microsoft WCF 4.0 Web Services - Under the Hood!
+
+Introduction
+
+	The intent of this article is to demonstrate to the reader the basics on WCF and how it works with a focus on REST and SOAP based configuration. 
+
+	When I first learned about WCF I found that I struggled to grasp the concept because I didnt really understand what was actually being communicated between the client and server in the relationship. As with any good technology WCF hides from the user the technicalities involved in making it work. And again, as with other technologies the very fact that it abstracts the user from the lower level dealings means that when it goes wrong we are sometimes shielded from the true problems.
+
+	In this article we will be setting up some very simple WCF services that provide a basic echo service and clients that will call these services. Along the journey we will be using a freely avaialble and extremely powerful tool called 'fiddler' to inspect what is being passed between the server and client. By using debugging tools to look at what is going on 'Under the Hood' you will learn to use the tool to further analyse your own WCF programs. You will learn by analysis, and gain a deeper insight into how WCF works and how to get the most from the splendid technology!
+
+This article will make you a better WCF programmer:
+
+	- you will understand how to set up http WCF services that are hosted as physical file in IIS (or the Visual Studio Web Server).
+	- you will learn how to configure the web service to allow REST based interaction and SOAP based interaction all from one single service.
+	- you will be able to use Fiddler to inspect any http based web service and look at the packets that travel to and from client and server.
+	- you will see how to create 'dummy' requests to the WCF services that can aid in testing and diagnosing problems.
+
+What software should you have to get the most from this article?
+
+	Visual Studio 2010 Professional
+	Fiddler 2.3.4.5
+	
+What should you already know to get the most from this article?
+
+	This article assumes that you are familiar wit the basic Hyptertext Transfer Protocol (HTTP), and that you have a basic understnading of XML.
+	
+What is a Webservice?
+
+
+What types of web services can I have?
+
+	SOAP and REST
+
+How does WCF fit into this?
+
+	Its a programming model
+	
+How do we create a WCF project?
+
+	Explain the service contract
+	Explain the physical service file as opposed to using a ServiceHost class
+	Explain the configuration entries
+		binding types
+		endpoints
+		behaviours
+	Start the service and view the service in the page
+		
+How do we consume a WCF project?
+
+	Explain the ways that we connect in this project 5 types
+	Explain how 
+	For each one
+		- Explain the C# code and classes
+		- Explain how to run the code and run fiddler
+	
+	
+
+
+
+
+

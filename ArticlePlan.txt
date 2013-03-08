@@ -1,0 +1,21 @@
+PREFACE
+-list all software and builds
+
+visual studio
+fiddler
+operating system
+
+-what you will learn
+brief overview of what a webservice is
+types of web services [REST and SOAP]
+how .net 4 supports web services WCF - a programming model
+how the webservices in this have been set up
+
+
+1) Explanation of web services both REST and SOAP
+2) Explanation Of WCF as a programming model
+
+3) Explanation of the code and how it works
+4) Explanation of how to set-up and run the code
+5) Explanation of running fiddler and monitoring what is going on
+6) Explanation of the fiddles and what is going on

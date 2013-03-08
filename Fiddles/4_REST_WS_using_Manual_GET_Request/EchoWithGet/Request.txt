@@ -1,0 +1,4 @@
+GET http://127.0.0.1:51111/SOAPRESTDemo.svc/rest/EchoWithGet/Hello%20World! HTTP/1.1
+Host: 127.0.0.1:51111
+Connection: Keep-Alive
+

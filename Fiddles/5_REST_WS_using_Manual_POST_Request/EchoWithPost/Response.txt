@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Server: ASP.NET Development Server/10.0.0.0
+Date: Thu, 23 Jun 2011 13:00:05 GMT
+X-AspNet-Version: 4.0.30319
+Content-Length: 152
+Cache-Control: private
+Content-Type: application/xml; charset=utf-8
+Connection: Close
+
+<EchoWithPostResponse xmlns="http://tempuri.org/"><EchoWithPostResult>ECHO with POST : You said Hello World!</EchoWithPostResult></EchoWithPostResponse>
